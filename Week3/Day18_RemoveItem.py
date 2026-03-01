@@ -1,16 +1,17 @@
-# Remove 
+# Remove's
 
-fruits = ["Banana", "Apple", "Grape", "Orange"]
+fruits = ["Banana", "Apple", "Grape", "Orange", "Kiwi", "Strawberry", "Mango"]
 
-fruits.remove("orange")  # remove 
+fruits.remove("Orange")   # remove for value
+fruits.pop(3)             # remove 
+removed_last = fruits.pop()  # remove the last and save
 
-fruits.pop(0)  # remove
+print("Removed last:", removed_last)
+print("Final list:", fruits)
+print("First:", fruits[0])
+print("Last:", fruits[-1])
 
-
-print(fruits)
-
-
------
+----
 
 # Show how much fruits
 
@@ -29,5 +30,6 @@ print(fruits)
 print(len(fruits))
 print(fruits[0])
 print(fruits[4])
+
 
 

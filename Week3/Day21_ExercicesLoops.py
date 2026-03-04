@@ -22,7 +22,8 @@ for index, fruit in enumerate(fruits):
 
 # Using enumerate(start=1), print 1) Banana, 2) Apple ... 
 
-fruits = ["Banana", "Aple", "Grape", "Orange", "Mango"]
+fruits = ["Banana", "Apple", "Grape", "Orange", "Mango"]
 
 for index, fruit in enumerate(fruits, start=1):
-    print(f"{index}: {fruit}")
+    print(f"{index}) {fruit}")
+

@@ -23,6 +23,6 @@ print(fruits.index("Apple"))  # 1
 item = "Kiwi"
 if item in fruits:
     pos = fruits.index(item)
-    print("Posição:", pos)
+    print("Position:", pos)
 else:
-    print("Não encontrei:", item)
+    print("Not found:", item)
